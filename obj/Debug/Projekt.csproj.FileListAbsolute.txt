@@ -1,0 +1,7 @@
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\bin\Debug\Projekt.exe
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\bin\Debug\Projekt.pdb
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\obj\Debug\Projekt.exe
+C:\Users\AJ\Desktop\SystemRezerwacjiBiletow-master\Projekt\obj\Debug\Projekt.pdb
