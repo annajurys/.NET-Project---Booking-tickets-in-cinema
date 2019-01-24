@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListaSeansow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <lista_seansow>
+    <Seans>
+      <film>
+        <tytul>Aaa</tytul>
+        <rezyser>Bbb</rezyser>
+        <czas_trwania>50</czas_trwania>
+        <Tytul>Aaa</Tytul>
+        <Rezyser>Bbb</Rezyser>
+        <Czas_trwania>50</Czas_trwania>
+      </film>
+      <data_i_godzina_rozpoczecia>2019-01-18T21:14:37.5128805+01:00</data_i_godzina_rozpoczecia>
+      <data_i_godzina_zakonczenia>2019-01-18T22:04:37.5128805+01:00</data_i_godzina_zakonczenia>
+      <sala>
+        <miejsca>10</miejsca>
+        <Miejsca>10</Miejsca>
+      </sala>
+      <plan>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </plan>
+      <Plan>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Plan>
+      <Data_i_godzina_rozpoczecia>2019-01-18T21:14:37.5128805+01:00</Data_i_godzina_rozpoczecia>
+      <Data_i_godzina_zakonczenia>2019-01-18T22:04:37.5128805+01:00</Data_i_godzina_zakonczenia>
+    </Seans>
+  </lista_seansow>
+</ListaSeansow>

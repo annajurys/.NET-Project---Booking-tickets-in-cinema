@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFilm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Film>
+    <tytul>Aaa</tytul>
+    <rezyser>Bbb</rezyser>
+    <czas_trwania>50</czas_trwania>
+    <Tytul>Aaa</Tytul>
+    <Rezyser>Bbb</Rezyser>
+    <Czas_trwania>50</Czas_trwania>
+  </Film>
+</ArrayOfFilm>

@@ -1,0 +1,14 @@
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\UnitTestProject1.dll.config
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CopyComplete
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.dll
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.pdb

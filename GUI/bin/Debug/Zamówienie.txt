@@ -1,0 +1,12 @@
+Zamówienie:
+Wybrany film: 
+Tytul filmu: Gdzie Jest Nemo
+Rezyser: Andrew Stanton
+Czas trwania: 93min.
+Czas Rozpoczęcia: 21-01-2019 20:30
+Czas Zakończenia: 21-01-2019 22:03
+liczba biletów: 1
+Bilet normalny, Cena:20zł
+ rząd: 9 miejsce: 85
+
+Suma zamówienia: 20zł

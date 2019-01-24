@@ -1,0 +1,18 @@
+﻿<Window x:Class="GUI.WybierzRodzajBiletu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="WybierzRodzajBiletu" Height="199.098" Width="200.619">
+    <Grid>
+        <ComboBox x:Name="combo_box_bilet" HorizontalAlignment="Left" Margin="11,55,0,0" VerticalAlignment="Top" Width="172">
+            <ComboBoxItem x:Name="U">ulgowy 10zł</ComboBoxItem>
+            <ComboBoxItem x:Name="N">normalny 20zł</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="button_zatwierdz" Content="OK" HorizontalAlignment="Left" Height="35" Margin="48,114,0,0" VerticalAlignment="Top" Width="91" Click="Button_zatwierdz_Click"/>
+        <Label x:Name="label1" Content="Wybierz rodzaj:" HorizontalAlignment="Left" Height="30" Margin="48,10,0,0" VerticalAlignment="Top" Width="91"/>
+
+    </Grid>
+</Window>

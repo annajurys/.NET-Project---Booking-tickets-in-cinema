@@ -1,2 +1,2 @@
-# SystemRezerwacjiBiletow
+# Projekt
 Projekt na PO ;)

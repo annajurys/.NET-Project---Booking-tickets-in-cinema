@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFilm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Film>
+    <tytul>Bohemian Rhapsody</tytul>
+    <rezyser>Bryan Singer</rezyser>
+    <czas_trwania>143</czas_trwania>
+    <Tytul>Bohemian Rhapsody</Tytul>
+    <Rezyser>Bryan Singer</Rezyser>
+    <Czas_trwania>143</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Gdzie Jest Nemo</tytul>
+    <rezyser>Andrew Stanton</rezyser>
+    <czas_trwania>93</czas_trwania>
+    <Tytul>Gdzie Jest Nemo</Tytul>
+    <Rezyser>Andrew Stanton</Rezyser>
+    <Czas_trwania>93</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Interstellar</tytul>
+    <rezyser>Christopher Nolan</rezyser>
+    <czas_trwania>164</czas_trwania>
+    <Tytul>Interstellar</Tytul>
+    <Rezyser>Christopher Nolan</Rezyser>
+    <Czas_trwania>164</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Kopciuszek</tytul>
+    <rezyser>Damon Santostefano</rezyser>
+    <czas_trwania>94</czas_trwania>
+    <Tytul>Kopciuszek</Tytul>
+    <Rezyser>Damon Santostefano</Rezyser>
+    <Czas_trwania>94</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Nietykalni</tytul>
+    <rezyser>Olivier Nakache</rezyser>
+    <czas_trwania>137</czas_trwania>
+    <Tytul>Nietykalni</Tytul>
+    <Rezyser>Olivier Nakache</Rezyser>
+    <Czas_trwania>137</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>O północy w Paryżu</tytul>
+    <rezyser>Drewniany Allen</rezyser>
+    <czas_trwania>117</czas_trwania>
+    <Tytul>O północy w Paryżu</Tytul>
+    <Rezyser>Drewniany Allen</Rezyser>
+    <Czas_trwania>117</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Prosimy o 5.0</tytul>
+    <rezyser>Mikołaj Fitowski, Klaudia Kowal, Anna Jurys, Małgorzata Dyląg</rezyser>
+    <czas_trwania>50</czas_trwania>
+    <Tytul>Prosimy o 5.0</Tytul>
+    <Rezyser>Mikołaj Fitowski, Klaudia Kowal, Anna Jurys, Małgorzata Dyląg</Rezyser>
+    <Czas_trwania>50</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Świnka Peppa</tytul>
+    <rezyser>Neville Astley</rezyser>
+    <czas_trwania>92</czas_trwania>
+    <Tytul>Świnka Peppa</Tytul>
+    <Rezyser>Neville Astley</Rezyser>
+    <Czas_trwania>92</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Zielona Mila</tytul>
+    <rezyser>Frank Darabonta</rezyser>
+    <czas_trwania>159</czas_trwania>
+    <Tytul>Zielona Mila</Tytul>
+    <Rezyser>Frank Darabonta</Rezyser>
+    <Czas_trwania>159</Czas_trwania>
+  </Film>
+  <Film>
+    <tytul>Życie Pi</tytul>
+    <rezyser>Bruce LEE</rezyser>
+    <czas_trwania>150</czas_trwania>
+    <Tytul>Życie Pi</Tytul>
+    <Rezyser>Bruce LEE</Rezyser>
+    <Czas_trwania>150</Czas_trwania>
+  </Film>
+</ArrayOfFilm>

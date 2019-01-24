@@ -1,0 +1,21 @@
+﻿<Window x:Class="GUI.GodzinaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="GodzinaWindow" Height="396.898" Width="280.458">
+    <Grid Margin="0,0,3.6,0.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listbox_godziny" HorizontalAlignment="Left" Height="168" Margin="36,127,0,0" VerticalAlignment="Top" Width="108"/>
+        <Label Content="Wybierz Godzinę:" HorizontalAlignment="Left" Height="25" Margin="35,97,0,0" VerticalAlignment="Top" Width="204"/>
+        <TextBlock x:Name="textblock_wybranyfilm" HorizontalAlignment="Left" Margin="36,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="204"/>
+        <Button Content="Dalej" HorizontalAlignment="Left" Height="29" Margin="156,196,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click" FontWeight="Bold"/>
+        <Label Content="Wybrany film:" HorizontalAlignment="Left" Height="25" Margin="36,10,0,0" VerticalAlignment="Top" Width="156"/>
+
+    </Grid>
+</Window>

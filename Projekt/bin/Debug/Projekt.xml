@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projekt</name>
+    </assembly>
+    <members>
+        <member name="T:Projekt.Rodzaj_biletu">
+            <summary>
+            Enum Rodzaj_biletu
+            </summary>
+        </member>
+        <member name="T:Projekt.Bilet">
+            <summary>
+            Class Bilet.
+            </summary>
+        </member>
+        <member name="F:Projekt.Bilet.miejsce">
+            <summary>
+            The miejsce
+            </summary>
+        </member>
+        <member name="F:Projekt.Bilet.cena">
+            <summary>
+            The cena
+            </summary>
+        </member>
+        <member name="F:Projekt.Bilet.rodzaj_biletu">
+            <summary>
+            The rodzaj biletu
+            </summary>
+        </member>
+        <member name="F:Projekt.Bilet.rzad">
+            <summary>
+            The rzad
+            </summary>
+        </member>
+        <member name="M:Projekt.Bilet.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Bilet" /> class.
+            </summary>
+        </member>
+        <member name="M:Projekt.Bilet.#ctor(Projekt.Rodzaj_biletu)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Bilet" /> class.
+            </summary>
+            <param name="rodzaj_biletu">The rodzaj biletu.</param>
+        </member>
+        <member name="P:Projekt.Bilet.Cena">
+            <summary>
+            Gets or sets the cena.
+            </summary>
+            <value>The cena.</value>
+        </member>
+        <member name="P:Projekt.Bilet.Rodzaj_biletu">
+            <summary>
+            Gets or sets the rodzaj biletu.
+            </summary>
+            <value>The rodzaj biletu.</value>
+        </member>
+        <member name="P:Projekt.Bilet.Miejsce">
+            <summary>
+            Gets or sets the miejsce.
+            </summary>
+            <value>The miejsce.</value>
+        </member>
+        <member name="P:Projekt.Bilet.Rzad">
+            <summary>
+            Gets or sets the rzad.
+            </summary>
+            <value>The rzad.</value>
+        </member>
+        <member name="M:Projekt.Bilet.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+        <member name="T:Projekt.Film">
+            <summary>
+            Class Film
+            Implements the <see cref="!:System.IComparable&lt;Projekt.Film&gt;" />
+            </summary>
+            <seealso cref="!:System.IComparable&lt;Projekt.Film&gt;" />
+            <seealso cref="T:System.ICloneable" />
+        </member>
+        <member name="F:Projekt.Film.tytul">
+            <summary>
+            The tytul
+            </summary>
+        </member>
+        <member name="F:Projekt.Film.rezyser">
+            <summary>
+            The rezyser
+            </summary>
+        </member>
+        <member name="F:Projekt.Film.czas_trwania">
+            <summary>
+            The czas trwania
+            </summary>
+        </member>
+        <member name="M:Projekt.Film.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Film" /> class.
+            </summary>
+        </member>
+        <member name="M:Projekt.Film.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Film" /> class.
+            </summary>
+            <param name="tytul">The tytul.</param>
+            <param name="rezyser">The rezyser.</param>
+            <param name="czas_trwania">The czas trwania.</param>
+        </member>
+        <member name="P:Projekt.Film.Tytul">
+            <summary>
+            Gets or sets the tytul.
+            </summary>
+            <value>The tytul.</value>
+        </member>
+        <member name="P:Projekt.Film.Rezyser">
+            <summary>
+            Gets or sets the rezyser.
+            </summary>
+            <value>The rezyser.</value>
+        </member>
+        <member name="P:Projekt.Film.Czas_trwania">
+            <summary>
+            Gets or sets the czas trwania.
+            </summary>
+            <value>The czas trwania.</value>
+            <exception cref="T:Projekt.Ujemny_czas_trwania_filmu_exception">Zła dlugość filmu!</exception>
+            <exception cref="T:Projekt.Ujemny_czas_trwania_filmu_exception">Zła dlugość filmu!</exception>
+        </member>
+        <member name="M:Projekt.Film.CompareTo(Projekt.Film)">
+            <summary>
+            Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+            </summary>
+            <param name="other">An object to compare with this instance.</param>
+            <returns>A value that indicates the relative order of the objects being compared. The return value has these meanings: Value Meaning Less than zero This instance precedes <paramref name="other" /> in the sort order.  Zero This instance occurs in the same position in the sort order as <paramref name="other" />. Greater than zero This instance follows <paramref name="other" /> in the sort order.</returns>
+        </member>
+        <member name="M:Projekt.Film.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="M:Projekt.Film.ToString">
+            <summary>
+            Returns a string that represents the current object.
+            </summary>
+            <returns>A string that represents the current object.</returns>
+        </member>
+        <member name="T:Projekt.ListaFilmow">
+            <summary>
+            Class ListaFilmow.
+            Implements the <see cref="T:System.ICloneable" />
+            </summary>
+            <seealso cref="T:System.ICloneable" />
+        </member>
+        <member name="F:Projekt.ListaFilmow.lista_filmow">
+            <summary>
+            The lista filmow
+            </summary>
+        </member>
+        <member name="P:Projekt.ListaFilmow.Lista_filmow">
+            <summary>
+            Gets or sets the lista filmow.
+            </summary>
+            <value>The lista filmow.</value>
+        </member>
+        <member name="M:Projekt.ListaFilmow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.ListaFilmow" /> class.
+            </summary>
+        </member>
+        <member name="M:Projekt.ListaFilmow.DodajFilm(Projekt.Film)">
+            <summary>
+            Dodajs the film.
+            </summary>
+            <param name="f">The f.</param>
+        </member>
+        <member name="M:Projekt.ListaFilmow.UsunFilm(System.String)">
+            <summary>
+            Usuns the film.
+            </summary>
+            <param name="tytul">The tytul.</param>
+        </member>
+        <member name="M:Projekt.ListaFilmow.Sort">
+            <summary>
+            Sorts this instance.
+            </summary>
+        </member>
+        <member name="M:Projekt.ListaFilmow.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+        <member name="M:Projekt.ListaFilmow.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="M:Projekt.ListaFilmow.ZapiszXML(System.String,Projekt.ListaFilmow)">
+            <summary>
+            Zapiszs the XML.
+            </summary>
+            <param name="nazwa">The nazwa.</param>
+            <param name="z">The z.</param>
+        </member>
+        <member name="M:Projekt.ListaFilmow.OdczytajXML(System.String)">
+            <summary>
+            Odczytajs the XML.
+            </summary>
+            <param name="nazwa">The nazwa.</param>
+            <returns>ListaFilmow.</returns>
+        </member>
+        <member name="T:Projekt.ListaSeansow">
+            <summary>
+            Class ListaSeansow.
+            Implements the <see cref="T:System.ICloneable" />
+            </summary>
+            <seealso cref="T:System.ICloneable" />
+        </member>
+        <member name="F:Projekt.ListaSeansow.lista_seansow">
+            <summary>
+            The lista seansow
+            </summary>
+        </member>
+        <member name="M:Projekt.ListaSeansow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.ListaSeansow" /> class.
+            </summary>
+        </member>
+        <member name="P:Projekt.ListaSeansow.Lista_seansow">
+            <summary>
+            Gets or sets the lista seansow.
+            </summary>
+            <value>The lista seansow.</value>
+        </member>
+        <member name="M:Projekt.ListaSeansow.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+        <member name="M:Projekt.ListaSeansow.DodajSeans(Projekt.Seans)">
+            <summary>
+            Dodajs the seans.
+            </summary>
+            <param name="f">The f.</param>
+        </member>
+        <member name="M:Projekt.ListaSeansow.Sortuj">
+            <summary>
+            Sortujs this instance.
+            </summary>
+        </member>
+        <member name="M:Projekt.ListaSeansow.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="M:Projekt.ListaSeansow.ZapiszXML(System.String,Projekt.ListaSeansow)">
+            <summary>
+            Zapiszs the XML.
+            </summary>
+            <param name="nazwa">The nazwa.</param>
+            <param name="z">The z.</param>
+        </member>
+        <member name="M:Projekt.ListaSeansow.OdczytajXML(System.String)">
+            <summary>
+            Odczytajs the XML.
+            </summary>
+            <param name="nazwa">The nazwa.</param>
+            <returns>ListaSeansow.</returns>
+        </member>
+        <member name="T:Projekt.Miejsce_juz_zajete">
+            <summary>
+            Class Miejsce_juz_zajete.
+            Implements the <see cref="T:System.Exception" />
+            </summary>
+            <seealso cref="T:System.Exception" />
+        </member>
+        <member name="M:Projekt.Miejsce_juz_zajete.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Miejsce_juz_zajete" /> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:Projekt.Program">
+            <summary>
+            Class Program.
+            </summary>
+        </member>
+        <member name="M:Projekt.Program.Main(System.String[])">
+            <summary>
+            Defines the entry point of the application.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="T:Projekt.Sala">
+            <summary>
+            Class Sala.
+            Implements the <see cref="T:System.ICloneable" />
+            </summary>
+            <seealso cref="T:System.ICloneable" />
+        </member>
+        <member name="F:Projekt.Sala.miejsca">
+            <summary>
+            The miejsca
+            </summary>
+        </member>
+        <member name="M:Projekt.Sala.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Sala" /> class.
+            </summary>
+        </member>
+        <member name="P:Projekt.Sala.Miejsca">
+            <summary>
+            Gets or sets the miejsca.
+            </summary>
+            <value>The miejsca.</value>
+            <exception cref="T:Projekt.Zla_ilosc_miejsc_exception">Zła ilość miejsc!</exception>
+        </member>
+        <member name="M:Projekt.Sala.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Sala" /> class.
+            </summary>
+            <param name="miejsca">The miejsca.</param>
+        </member>
+        <member name="M:Projekt.Sala.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+        <member name="M:Projekt.Sala.Clone">
+            <summary>
+            Clones this instance.
+            </summary>
+            <returns>System.Object.</returns>
+        </member>
+        <member name="T:Projekt.Seans">
+            <summary>
+            Class Seans.
+            Implements the <see cref="!:System.IComparable&lt;Projekt.Seans&gt;" />
+            Implements the <see cref="T:System.ICloneable" />
+            </summary>
+            <seealso cref="!:System.IComparable&lt;Projekt.Seans&gt;" />
+            <seealso cref="T:System.ICloneable" />
+        </member>
+        <member name="F:Projekt.Seans.film">
+            <summary>
+            The film
+            </summary>
+        </member>
+        <member name="F:Projekt.Seans.data_i_godzina_rozpoczecia">
+            <summary>
+            The data i godzina rozpoczecia
+            </summary>
+        </member>
+        <member name="F:Projekt.Seans.data_i_godzina_zakonczenia">
+            <summary>
+            The data i godzina zakonczenia
+            </summary>
+        </member>
+        <member name="F:Projekt.Seans.sala">
+            <summary>
+            The sala
+            </summary>
+        </member>
+        <member name="F:Projekt.Seans.plan">
+            <summary>
+            The plan
+            </summary>
+        </member>
+        <member name="P:Projekt.Seans.Plan">
+            <summary>
+            Gets or sets the plan.
+            </summary>
+            <value>The plan.</value>
+        </member>
+        <member name="P:Projekt.Seans.Sala">
+            <summary>
+            Gets or sets the sala.
+            </summary>
+            <value>The sala.</value>
+        </member>
+        <member name="M:Projekt.Seans.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Seans" /> class.
+            </summary>
+        </member>
+        <member name="M:Projekt.Seans.#ctor(Projekt.Film,System.DateTime,Projekt.Sala)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Seans" /> class.
+            </summary>
+            <param name="film">The film.</param>
+            <param name="data_i_godzina_rozpoczecia">The data i godzina rozpoczecia.</param>
+            <param name="s">The s.</param>
+        </member>
+        <member name="P:Projekt.Seans.Film">
+            <summary>
+            Gets or sets the film.
+            </summary>
+            <value>The film.</value>
+        </member>
+        <member name="P:Projekt.Seans.Data_i_godzina_rozpoczecia">
+            <summary>
+            Gets or sets the data i godzina rozpoczecia.
+            </summary>
+            <value>The data i godzina rozpoczecia.</value>
+        </member>
+        <member name="P:Projekt.Seans.Data_i_godzina_zakonczenia">
+            <summary>
+            Gets or sets the data i godzina zakonczenia.
+            </summary>
+            <value>The data i godzina zakonczenia.</value>
+        </member>
+        <member name="M:Projekt.Seans.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+        <member name="M:Projekt.Seans.ZajmijMiejsce(System.Int32)">
+            <summary>
+            Zajmijs the miejsce.
+            </summary>
+            <param name="miejsce">The miejsce.</param>
+            <exception cref="T:Projekt.Miejsce_juz_zajete">Miejsce jest już zajęte</exception>
+        </member>
+        <member name="M:Projekt.Seans.UsunMiejsce(System.Int32)">
+            <summary>
+            Usuns the miejsce.
+            </summary>
+            <param name="miejsce">The miejsce.</param>
+        </member>
+        <member name="M:Projekt.Seans.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="M:Projekt.Seans.CompareTo(Projekt.Seans)">
+            <summary>
+            Compares to.
+            </summary>
+            <param name="other">The other.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="T:Projekt.Ujemny_czas_trwania_filmu_exception">
+            <summary>
+            Class Ujemny_czas_trwania_filmu_exception.
+            Implements the <see cref="T:System.Exception" />
+            </summary>
+            <seealso cref="T:System.Exception" />
+        </member>
+        <member name="M:Projekt.Ujemny_czas_trwania_filmu_exception.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Ujemny_czas_trwania_filmu_exception" /> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:Projekt.Zamowienie">
+            <summary>
+            Class Zamowienie.
+            </summary>
+        </member>
+        <member name="F:Projekt.Zamowienie.lista_biletow">
+            <summary>
+            The lista biletow
+            </summary>
+        </member>
+        <member name="F:Projekt.Zamowienie.seans">
+            <summary>
+            The seans
+            </summary>
+        </member>
+        <member name="M:Projekt.Zamowienie.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Zamowienie" /> class.
+            </summary>
+        </member>
+        <member name="M:Projekt.Zamowienie.#ctor(Projekt.Seans)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Zamowienie" /> class.
+            </summary>
+            <param name="s">The s.</param>
+        </member>
+        <member name="M:Projekt.Zamowienie.DodajBilet(Projekt.Bilet,System.Int32)">
+            <summary>
+            Dodajs the bilet.
+            </summary>
+            <param name="b">The b.</param>
+            <param name="miejsce">The miejsce.</param>
+        </member>
+        <member name="M:Projekt.Zamowienie.UsunBilet(System.Int32)">
+            <summary>
+            Usuns the bilet.
+            </summary>
+            <param name="miejsce">The miejsce.</param>
+        </member>
+        <member name="P:Projekt.Zamowienie.Lista_biletow">
+            <summary>
+            Gets or sets the lista biletow.
+            </summary>
+            <value>The lista biletow.</value>
+        </member>
+        <member name="P:Projekt.Zamowienie.Seans">
+            <summary>
+            Gets or sets the seans.
+            </summary>
+            <value>The seans.</value>
+        </member>
+        <member name="M:Projekt.Zamowienie.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+        <member name="T:Projekt.Zla_ilosc_miejsc_exception">
+            <summary>
+            Class Zla_ilosc_miejsc_exception.
+            Implements the <see cref="T:System.Exception" />
+            </summary>
+            <seealso cref="T:System.Exception" />
+        </member>
+        <member name="M:Projekt.Zla_ilosc_miejsc_exception.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Projekt.Zla_ilosc_miejsc_exception" /> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+    </members>
+</doc>

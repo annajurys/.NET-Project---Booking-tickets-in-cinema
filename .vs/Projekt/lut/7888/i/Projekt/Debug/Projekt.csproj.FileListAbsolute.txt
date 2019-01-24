@@ -1,0 +1,9 @@
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\Projekt\bin\Debug\Projekt.exe.config
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\Projekt\bin\Debug\Projekt.exe
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\b\Projekt\bin\Debug\Projekt.pdb
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.csprojResolveAssemblyReference.cache
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.exe.config
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.csproj.CoreCompileInputs.cache
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.csproj.CopyComplete
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.exe
+D:\ANIA\STUDIA\PO\PROJEKT\SystemRezerwacjiBiletow-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.pdb

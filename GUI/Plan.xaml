@@ -1,0 +1,69 @@
+﻿<Window x:Class="GUI.Plan"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="Plan" Height="612.335" Width="739.987" Background="#FFFCFCFC">
+    <Grid Name="Planik" Margin="74,95,66.6,76.4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="38*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="57.6"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.ColumnSpan="9" Fill="{DynamicResource {x:Static SystemColors.InfoTextBrushKey}}" HorizontalAlignment="Left" Height="29" Margin="4.4,-57,0,0" Stroke="Black" VerticalAlignment="Top" Width="470" Grid.Column="1" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
+        <Label Grid.ColumnSpan="4" Content="Ekran" Grid.Column="4" HorizontalAlignment="Left" Height="31" Margin="33.6,-59,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontSize="18"/>
+        <Button x:Name="button_zamowienie" Grid.ColumnSpan="3" Content="Złóż zamówienie" Grid.Column="7" HorizontalAlignment="Left" Height="45" Margin="56.8,43.4,-1.2,-54.8" Grid.Row="11" VerticalAlignment="Top" Width="118" Click="Button_zamowienie_Click" FontWeight="Bold"/>
+        <Rectangle Fill="Red" HorizontalAlignment="Left" Height="45" Margin="1,43.4,0,-54.8" Grid.Row="11" Stroke="Black" VerticalAlignment="Top" Width="53"/>
+        <Rectangle Fill="Green" HorizontalAlignment="Left" Height="45" Margin="30.8,43.4,0,-54.8" Grid.Row="11" Stroke="Black" VerticalAlignment="Top" Width="53" Grid.ColumnSpan="2" Grid.Column="2"/>
+        <Rectangle Fill="Orange" HorizontalAlignment="Left" Height="45" Margin="49.6,43.4,0,-54.8" Grid.Row="11" Stroke="Black" VerticalAlignment="Top" Width="53" Grid.ColumnSpan="2" Grid.Column="4"/>
+        <Label Content="Zajęte" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="3.4,53.4,0,-47.8" Grid.Row="11" VerticalAlignment="Top" Width="51" FontWeight="Bold"/>
+        <Label Content="Wolne" Grid.Column="3" HorizontalAlignment="Left" Height="28" Margin="31.2,53.4,0,-47.8" Grid.Row="11" VerticalAlignment="Top" Width="51" Grid.ColumnSpan="2" FontWeight="Bold"/>
+        <Label Content="Wybrane" Grid.Column="5" HorizontalAlignment="Left" Height="28" Margin="50,53.4,0,-47.8" Grid.Row="11" VerticalAlignment="Top" Width="61" Grid.ColumnSpan="2" FontWeight="Bold"/>
+        <Label Content="1" HorizontalAlignment="Left" Height="35" Margin="-51,0,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2"/>
+        <Label Content="2" HorizontalAlignment="Left" Height="35" Margin="-51,0,0,33.2" VerticalAlignment="Bottom" Width="44" Grid.RowSpan="2" Grid.Row="1"/>
+        <Label Content="4" HorizontalAlignment="Left" Height="35" Margin="-51,1.8,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="3"/>
+        <Label Content="5" HorizontalAlignment="Left" Height="35" Margin="-51,2.4,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="4"/>
+        <Label Content="6" HorizontalAlignment="Left" Height="35" Margin="-51,3,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="5"/>
+        <Label Content="7" HorizontalAlignment="Left" Height="35" Margin="-51,3.6,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="6"/>
+        <Label Content="8" HorizontalAlignment="Left" Height="35" Margin="-51,4.2,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="7"/>
+        <Label Content="9" HorizontalAlignment="Left" Height="35" Margin="-51,34.2,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="3" Grid.Row="7"/>
+        <Label Content="10" HorizontalAlignment="Left" Height="35" Margin="-51,0.4,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="9"/>
+        <Label Content="3" HorizontalAlignment="Left" Height="35" Margin="-51,0,0,32.6" VerticalAlignment="Bottom" Width="44" Grid.RowSpan="2" Grid.Row="2"/>
+        <Label Content="1" HorizontalAlignment="Left" Height="35" Margin="81.2,-2,-65.2,0" VerticalAlignment="Top" Width="44" Grid.Column="9"/>
+        <Label Content="2" HorizontalAlignment="Left" Height="35" Margin="81.2,0,-65.2,0.8" VerticalAlignment="Bottom" Width="44" Grid.RowSpan="2" Grid.Column="9"/>
+        <Label Content="4" HorizontalAlignment="Left" Height="35" Margin="81.2,34.2,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="3" Grid.Row="2" Grid.Column="9"/>
+        <Label Content="5" HorizontalAlignment="Left" Height="35" Margin="81.2,0.4,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="4" Grid.Column="9"/>
+        <Label Content="6" HorizontalAlignment="Left" Height="35" Margin="81.2,1,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="5" Grid.Column="9"/>
+        <Label Content="7" HorizontalAlignment="Left" Height="35" Margin="81.2,1.6,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="6" Grid.Column="9"/>
+        <Label Content="8" HorizontalAlignment="Left" Height="35" Margin="81.2,2.2,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="7" Grid.Column="9"/>
+        <Label Content="9" HorizontalAlignment="Left" Height="35" Margin="81.2,32.2,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="7" Grid.Column="9"/>
+        <Label Content="10" HorizontalAlignment="Left" Height="35" Margin="81.2,32.8,-65.2,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2" Grid.Row="8" Grid.Column="9"/>
+        <Label Content="3" HorizontalAlignment="Left" Height="35" Margin="81.2,0,-65.2,0.2" VerticalAlignment="Bottom" Width="44" Grid.RowSpan="2" Grid.Row="1" Grid.Column="9"/>
+    </Grid>
+</Window>
